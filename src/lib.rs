@@ -18,3 +18,11 @@ pub mod acosf;
 pub mod acosh;
 #[path = "math/acoshf.rs"]
 pub mod acoshf;
+#[path = "math/asin.rs"]
+pub mod asin;
+#[path = "math/asinf.rs"]
+pub mod asinf;
+#[path = "math/asinh.rs"]
+pub mod asinh;
+#[path = "math/asinhf.rs"]
+pub mod asinhf;

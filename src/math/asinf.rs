@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MPL-2.0
 /*
- * File: src/math/acosh.rs
+ * File: src/math/asinf.rs
  *
- * The acosh function.
+ * The asinf function.
  *
  * Author: HTG-YT
  * Copyright (c) 2021 The LibM Team of the HaruxOS Project
  */
 
 #[no_mangle]
-pub extern "C" fn acosh(x: f64) -> f64 {
-    libm::acosh(x)
+pub extern "C" fn asinf(x: f32) -> f32 {
+    libm::asinf(x)
 }

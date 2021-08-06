@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MPL-2.0
 /*
- * File: src/math/acos.rs
+ * File: src/math/acosf.rs
  *
  * The acosf function.
  *
