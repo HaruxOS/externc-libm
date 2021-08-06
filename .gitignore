@@ -1,0 +1,5 @@
+# dot directories
+.idea
+
+# lock files
+Cargo.lock
