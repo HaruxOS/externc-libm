@@ -26,3 +26,11 @@ pub mod asinf;
 pub mod asinh;
 #[path = "math/asinhf.rs"]
 pub mod asinhf;
+#[path = "math/atan.rs"]
+pub mod atan;
+#[path = "math/atan2.rs"]
+pub mod atan2;
+#[path = "math/atan2f.rs"]
+pub mod atan2f;
+#[path = "math/atanf.rs"]
+pub mod atanf;
