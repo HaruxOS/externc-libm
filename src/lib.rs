@@ -34,3 +34,7 @@ pub mod atan2;
 pub mod atan2f;
 #[path = "math/atanf.rs"]
 pub mod atanf;
+#[path = "math/atanh.rs"]
+pub mod atanh;
+#[path = "math/atanhf.rs"]
+pub mod atanhf;
