@@ -9,6 +9,6 @@
  */
 
 #[no_mangle]
-pub extern "C" fn floor(x: f32) -> f32 {
+pub extern "C" fn floorf(x: f32) -> f32 {
     libm::floorf(x)
 }
