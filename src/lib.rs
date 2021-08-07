@@ -46,3 +46,7 @@ pub mod cbrtf;
 pub mod ceil;
 #[path = "math/ceilf.rs"]
 pub mod ceilf;
+#[path = "math/copysign.rs"]
+pub mod copysign;
+#[path = "math/copysignf.rs"]
+pub mod copysignf;
