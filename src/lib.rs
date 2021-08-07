@@ -66,3 +66,15 @@ pub mod erfc;
 pub mod erfcf;
 #[path = "math/erff.rs"]
 pub mod erff;
+#[path = "math/exp.rs"]
+pub mod exp;
+#[path = "math/exp2.rs"]
+pub mod exp2;
+#[path = "math/exp2f.rs"]
+pub mod exp2f;
+#[path = "math/exp10.rs"]
+pub mod exp10;
+#[path = "math/exp10f.rs"]
+pub mod exp10f;
+#[path = "math/expf.rs"]
+pub mod expf;
