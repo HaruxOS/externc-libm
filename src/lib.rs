@@ -38,3 +38,11 @@ pub mod atanf;
 pub mod atanh;
 #[path = "math/atanhf.rs"]
 pub mod atanhf;
+#[path = "math/cbrt.rs"]
+pub mod cbrt;
+#[path = "math/cbrtf.rs"]
+pub mod cbrtf;
+#[path = "math/ceil.rs"]
+pub mod ceil;
+#[path = "math/ceilf.rs"]
+pub mod ceilf;
