@@ -58,3 +58,11 @@ pub mod cosf;
 pub mod cosh;
 #[path = "math/coshf.rs"]
 pub mod coshf;
+#[path = "math/erf.rs"]
+pub mod erf;
+#[path = "math/erfc.rs"]
+pub mod erfc;
+#[path = "math/erfcf.rs"]
+pub mod erfcf;
+#[path = "math/erff.rs"]
+pub mod erff;
