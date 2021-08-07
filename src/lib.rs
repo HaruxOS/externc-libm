@@ -50,3 +50,11 @@ pub mod ceilf;
 pub mod copysign;
 #[path = "math/copysignf.rs"]
 pub mod copysignf;
+#[path = "math/cos.rs"]
+pub mod cos;
+#[path = "math/cosf.rs"]
+pub mod cosf;
+#[path = "math/cosh.rs"]
+pub mod cosh;
+#[path = "math/coshf.rs"]
+pub mod coshf;
