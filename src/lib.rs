@@ -162,3 +162,11 @@ pub mod log10;
 pub mod log10f;
 #[path = "math/logf.rs"]
 pub mod logf;
+#[path = "math/modf.rs"]
+pub mod modf;
+#[path = "math/modff.rs"]
+pub mod modff;
+#[path = "math/nextafter.rs"]
+pub mod nextafter;
+#[path = "math/nextafterf.rs"]
+pub mod nextafterf;
