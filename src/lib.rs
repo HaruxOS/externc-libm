@@ -122,3 +122,15 @@ pub mod hypotf;
 pub mod ilogb;
 #[path = "math/ilogbf.rs"]
 pub mod ilogbf;
+#[path = "math/j0.rs"]
+pub mod j0;
+#[path = "math/j0f.rs"]
+pub mod j0f;
+#[path = "math/j1.rs"]
+pub mod j1;
+#[path = "math/j1f.rs"]
+pub mod j1f;
+#[path = "math/jn.rs"]
+pub mod jn;
+#[path = "math/jnf.rs"]
+pub mod jnf;
