@@ -106,3 +106,11 @@ pub mod fmaxf;
 pub mod fmin;
 #[path = "math/fminf.rs"]
 pub mod fminf;
+#[path = "math/fmod.rs"]
+pub mod fmod;
+#[path = "math/fmodf.rs"]
+pub mod fmodf;
+#[path = "math/frexp.rs"]
+pub mod frexp;
+#[path = "math/frexpf.rs"]
+pub mod frexpf;
