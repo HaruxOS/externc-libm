@@ -134,3 +134,15 @@ pub mod j1f;
 pub mod jn;
 #[path = "math/jnf.rs"]
 pub mod jnf;
+#[path = "math/ldexp.rs"]
+pub mod ldexp;
+#[path = "math/ldexpf.rs"]
+pub mod ldexpf;
+#[path = "math/lgamma.rs"]
+pub mod lgamma;
+#[path = "math/lgamma_r.rs"]
+pub mod lgamma_r;
+#[path = "math/lgammaf.rs"]
+pub mod lgammaf;
+#[path = "math/lgammaf_r.rs"]
+pub mod lgammaf_r;
