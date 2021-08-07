@@ -98,3 +98,11 @@ pub mod floorf;
 pub mod fma;
 #[path = "math/fmaf.rs"]
 pub mod fmaf;
+#[path = "math/fmax.rs"]
+pub mod fmax;
+#[path = "math/fmaxf.rs"]
+pub mod fmaxf;
+#[path = "math/fmin.rs"]
+pub mod fmin;
+#[path = "math/fminf.rs"]
+pub mod fminf;
