@@ -9,6 +9,6 @@
  */
 
 #[no_mangle]
-pub extern "C" fn jn(n: i32, x: f32) -> f32 {
+pub extern "C" fn jnf(n: i32, x: f32) -> f32 {
     libm::jnf(n, x)
 }
