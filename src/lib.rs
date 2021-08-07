@@ -114,3 +114,11 @@ pub mod fmodf;
 pub mod frexp;
 #[path = "math/frexpf.rs"]
 pub mod frexpf;
+#[path = "math/hypot.rs"]
+pub mod hypot;
+#[path = "math/hypotf.rs"]
+pub mod hypotf;
+#[path = "math/ilogb.rs"]
+pub mod ilogb;
+#[path = "math/ilogbf.rs"]
+pub mod ilogbf;
