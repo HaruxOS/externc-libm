@@ -78,3 +78,7 @@ pub mod exp10;
 pub mod exp10f;
 #[path = "math/expf.rs"]
 pub mod expf;
+#[path = "math/expm1.rs"]
+pub mod expm1;
+#[path = "math/expm1f.rs"]
+pub mod expm1f;
