@@ -82,3 +82,11 @@ pub mod expf;
 pub mod expm1;
 #[path = "math/expm1f.rs"]
 pub mod expm1f;
+#[path = "math/fabs.rs"]
+pub mod fabs;
+#[path = "math/fabsf.rs"]
+pub mod fabsf;
+#[path = "math/fdim.rs"]
+pub mod fdim;
+#[path = "math/fdimf.rs"]
+pub mod fdimf;
