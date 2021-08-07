@@ -90,3 +90,11 @@ pub mod fabsf;
 pub mod fdim;
 #[path = "math/fdimf.rs"]
 pub mod fdimf;
+#[path = "math/floor.rs"]
+pub mod floor;
+#[path = "math/floorf.rs"]
+pub mod floorf;
+#[path = "math/fma.rs"]
+pub mod fma;
+#[path = "math/fmaf.rs"]
+pub mod fmaf;
