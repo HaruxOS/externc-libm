@@ -8,3 +8,6 @@ license = "MPL-2.0"
 
 [dependencies]
 libm = "0.2.1"
+
+[features]
+libm-unstable = ["libm/unstable"]
