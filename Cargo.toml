@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2018"
 authors = [ "The LibM Team of HaruxOS" ]
 description = "A port of `libm` that has all the required no_mangle and extern-cs for linking."
-license = "MPL-2.0"
+license = "Apache-2.0"
 
 [dependencies]
 libm = "0.2.1"
