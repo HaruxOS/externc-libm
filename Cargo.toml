@@ -5,6 +5,9 @@ edition = "2018"
 authors = [ "The LibM Team of HaruxOS" ]
 description = "A port of `libm` that has all the required no_mangle and extern-cs for linking."
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/HaruxOS/externc-libm"
+repository = "https://github.com/HaruxOS/externc-libm"
 
 [dependencies]
 libm = "0.2.1"
