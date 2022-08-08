@@ -8,7 +8,6 @@
  * Copyright (c) 2021 The LibM Team of the HaruxOS Project
  */
 
-#[no_mangle]
-pub extern "C" fn modf(x: f64) -> (f64, f64) {
+pub fn modf(x: f64) -> (f64, f64) {
     libm::modf(x)
 }

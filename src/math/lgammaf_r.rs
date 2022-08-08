@@ -8,7 +8,6 @@
  * Copyright (c) 2021 The LibM Team of the HaruxOS Project
  */
 
-#[no_mangle]
-pub extern "C" fn lgammaf_r(x: f32) -> (f32, i32) {
+pub fn lgammaf_r(x: f32) -> (f32, i32) {
     libm::lgammaf_r(x)
 }
