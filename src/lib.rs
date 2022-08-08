@@ -124,13 +124,3 @@ pub mod math {
     pub mod yn;
     pub mod ynf;
 }
-
-
-
-// FIXME: Scuffed
-#[no_mangle]
-extern "C" fn __truncdfsf2(_x: f64) -> f32 {
-    0.0
-}
-
-
