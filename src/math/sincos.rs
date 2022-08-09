@@ -8,7 +8,6 @@
  * Copyright (c) 2021 The LibM Team of the HaruxOS Project
  */
 
-#[no_mangle]
-pub extern "C" fn sincos(x: f64) -> (f64, f64) {
+pub fn sincos(x: f64) -> (f64, f64) {
     libm::sincos(x)
 }

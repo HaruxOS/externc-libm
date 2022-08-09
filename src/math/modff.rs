@@ -8,7 +8,6 @@
  * Copyright (c) 2021 The LibM Team of the HaruxOS Project
  */
 
-#[no_mangle]
-pub extern "C" fn modff(x: f32) -> (f32, f32) {
+pub fn modff(x: f32) -> (f32, f32) {
     libm::modff(x)
 }

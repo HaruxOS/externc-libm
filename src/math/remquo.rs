@@ -8,7 +8,6 @@
  * Copyright (c) 2021 The LibM Team of the HaruxOS Project
  */
 
-#[no_mangle]
-pub extern "C" fn remquo(x: f64, y: f64) -> (f64, i32) {
+pub fn remquo(x: f64, y: f64) -> (f64, i32) {
     libm::remquo(x, y)
 }

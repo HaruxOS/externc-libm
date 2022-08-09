@@ -8,7 +8,6 @@
  * Copyright (c) 2021 The LibM Team of the HaruxOS Project
  */
 
-#[no_mangle]
-pub extern "C" fn lgamma_r(x: f64) -> (f64, i32) {
+pub fn lgamma_r(x: f64) -> (f64, i32) {
     libm::lgamma_r(x)
 }
